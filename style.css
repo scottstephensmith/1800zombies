@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* ====== BEGIN THE CSS RESET ===== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1; 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/* ====== END OF THE CSS RESET ===== */
+
+.background {
+	display:block;
+	position: absolute;
+	width:100%;
+	background:url(blood2.JPG) center center fixed;
+	height:100%;
+} 
+
+.content {
+	max-width: 600px;
+	margin:auto;
+	text-align:center;
+	display:block;
+}
+
+.logo {
+	padding-top:50px;
+}
+
+.logo h1 {
+	font-size:100px;
+}
+
+.logo h4 {
+	font-size:20px;
+}
+
+.countdown {
+	padding-top:50px;
+	color:red;
+	margin:auto;
+}
+
+.countdown h3 {font-size:30px;}
+
+.signup-container {
+	display:block;
+	padding-top:100px;
+	margin-bottom:20px;
+	max-width: 550px;
+	margin:auto;
+}
+
+/* MAILCHIMP STYLE */
+
+input#mc-embedded-subscribe {
+    font-size: 20px; background-color: black; border: none; color: red;
+}
+input#mce-EMAIL {
+    width: 300px; font-size: 20px; border: none; background-color: black; color: white;
+}
+
+.mc-field-group {
+	display:inline;
+	width:400px;
+}
+
+#mce-responses {display:inline;}
+
+.clear {display:inline;}
+
+
+/* FOOTER */
+.footer {
+	position:absolute;
+	bottom:0px;
+	display:block;
+	background-color:black;
+	line-height: 45px;
+	width:100%;
+}
+
+.tagline {
+	display:inline-block;
+	position:relative;
+	float:left;
+	color:white;
+	padding-left:20px;
+}
+
+.email-footer {
+	display:inline-block;
+	position:relative;
+	float: right;
+	color:white;
+	padding-right:20px;
+}
+
+.email a {
+	text-decoration: none;
+	color:white;
+}
